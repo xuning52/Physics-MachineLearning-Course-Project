@@ -1,0 +1,50 @@
+# --- 机器学习模型相关 ---
+*.pth
+*.pt
+*.pkl
+*.h5
+*.joblib
+# 忽略保存的模型 Checkpoints
+#checkpoints/
+
+# --- 物理模拟数据 & 临时文件 ---
+*.npy
+*.npz
+*.mat
+*.csv
+*.dat
+*.out
+# 存放原始数据的文件夹建议也忽略
+#data/
+#raw_data/
+
+# --- Python 环境相关 ---
+__pycache__/
+*.py[cod]
+*$py.class
+# 虚拟环境文件夹
+.venv/
+env/
+venv/
+# 特定虚拟环境配置（如果是存放在项目内的）
+Quantumai/
+
+# --- 编辑器 & 系统文件 ---
+.DS_Store
+.vscode/
+.idea/
+# Obsidian 产生的隐藏文件夹
+.obsidian/
+
+# --- 绘图 & 文档输出 ---
+*.log
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+# 忽略 LaTeX 编译的中间文件
+*.aux
+*.fdb_latexmk
+*.fls
+*.gz
