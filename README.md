@@ -6,6 +6,25 @@
     - 新增outputs文件夹：存档ipynb的输出，省去重复跑模型的费时费力
 
 ---
+# [2026.6.3 13:00]添加tensorflow面板
+### 如何打开面板？
+运行了训练代码之后，代码会在本地项目目录下创建一个 logs/ 文件夹。
+
+本脚本使用的是Jupyter Notebook / VS Code Notebook，以下这个单元格能让精美的**可交互**面板在脚本里面弹出来。可以直接在CNN-BiLSTM(addTesorflowBoard).ipynb文件中找到以下代码块，它的输出就是tensorflow交互面板：
+
+```Bash
+%load_ext tensorboard
+%tensorboard --logdir logs/fit
+```
+### （可忽略）如果你想在纯 Python 脚本（.py）或者终端里运行，可以在系统的命令行/终端里输入：
+
+```Bash
+tensorboard --logdir=logs/fit
+```
+运行后终端会给你一个网址（通常是 http://localhost:6006/），用浏览器打开它，就能看到实时的 Loss、MAE 变化曲线和双向 LSTM 的网络拓扑图了！
+
+
+---
 
 # [2026.6.2 23:20]提交CNN-BiLSTM模型
 
