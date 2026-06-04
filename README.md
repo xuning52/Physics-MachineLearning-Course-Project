@@ -21,6 +21,10 @@
 ```Bash
 tensorboard --logdir=logs/fit
 ```
+例如：
+```bash
+tensorboard --logdir=archive\CNN-BiLSTM-addTesorflowBoard\logs\fit
+```
 运行后终端会给你一个网址（通常是 http://localhost:6006/ ），用浏览器打开它，就能看到实时的 Loss、MAE 变化曲线和双向 LSTM 的网络拓扑图了！
 
 
