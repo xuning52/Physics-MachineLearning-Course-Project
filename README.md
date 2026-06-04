@@ -10,7 +10,7 @@
 ### 如何打开面板？
 运行了训练代码之后，代码会在本地项目目录下创建一个 logs/ 文件夹。
 
-本脚本使用的是Jupyter Notebook / VS Code Notebook，以下这个单元格能让精美的**可交互**面板在脚本里面弹出来。可以直接在CNN-BiLSTM(addTesorflowBoard).ipynb文件中找到以下代码块，它的输出就是tensorflow交互面板：
+本脚本使用的是Jupyter Notebook / VS Code Notebook，以下这个单元格能让精美的**可交互**面板在脚本里面弹出来。可以直接在CNN-BiLSTM-addTesorflowBoard.ipynb文件中找到以下代码块，它的输出就是tensorflow交互面板：
 
 ```Bash
 %load_ext tensorboard
