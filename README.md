@@ -16,7 +16,7 @@
 %load_ext tensorboard
 %tensorboard --logdir logs/fit
 ```
-### （可忽略）如果你想在纯 Python 脚本（.py）或者终端里运行，可以在系统的命令行/终端里输入：
+### 运行完脚本后再次打开TensorflowBoard/纯 Python 脚本（.py）/终端里运行，可以在系统的命令行/终端里输入：
 
 ```Bash
 tensorboard --logdir=logs/fit
