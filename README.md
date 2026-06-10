@@ -94,7 +94,7 @@ def windowed_dataset(series, window_size, batch_size, shuffle_buffer):
 
 ### 💡 总结
 
-* **`Pandas`** 负责从网络把数据“抓进来”。
+* **`Pandas`** 负责从网络把数据引入。
 * **`Numpy`** 负责把数据按 9:1 **“切两半”**。
 * **`tf.data.Dataset`** 负责在训练前把数据通过滑窗“重组、洗牌、打包装车（Batching）”，直接变成发动机（CNN-BiLSTM）需要的格式。
 
