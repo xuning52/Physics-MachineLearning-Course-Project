@@ -1,9 +1,17 @@
 # Physics-MachineLearning-Course-Project
 物理中的机器学习课程作业
 
-- [2026.6.2 23:20]
-    - 新增archive文件夹：存储每个版本的模型
-    - 新增outputs文件夹：存档ipynb的输出，省去重复跑模型的费时费力
+# [2026.6.11 8:20]解答“代码是哪个”的疑问
+  - archive文件夹：存储每个版本的模型。
+  - 模型有两个版本：
+    - archive\CNN-BiLSTM-addTesorflowBoard\CNN-BiLSTM-addTesorflowBoard.ipynb：CNN-BiLSTM模型
+    - archive\CNN-LSTM-another_try.ipynb：CNN-LSTM模型
+  - 在结果分析中，我对两个模型进行了对比分析，各有长处与短处
+---
+
+# [2026.6.2 23:20]
+ - 新增archive文件夹：存储每个版本的模型
+ - 新增outputs文件夹：存档ipynb的输出，省去重复跑模型的费时费力
 
 ---
 # [2026.6.10 14:40]模型的数据导入及处理部分说明
